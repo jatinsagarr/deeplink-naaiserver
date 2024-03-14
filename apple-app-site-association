@@ -8,20 +8,7 @@
         "appIDs":[
           "FCB23S68NF.com.naai.flutterApp"
         ],
-        "components":[
-          {
-            "/":"/",
-            "comment":"Matches URL with a path /"
-          },
-          {
-            "/":"/salon/*",
-            "comment":"Matches any URL with a path that starts with /salon/."
-          },
-          {
-            "/":"/artist/*",
-            "comment":"Matches URL with a path /artist."
-          }
-        ]
+        "paths":["*"]
       }
     ]
   }
